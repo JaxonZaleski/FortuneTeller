@@ -53,7 +53,7 @@ public class FortuneTellerFrame extends JFrame {
         fortuneTA.setEditable(false);
         scrollPanel = new JScrollPane(fortuneTA);
         fortuneTA.setFont(new Font("Sans-Serif", Font.PLAIN, 12));
-        fortuneTA.setSize(screenWidth / 4, );
+        fortuneTA.setSize(screenWidth / 4, screenHeight / 2);
         displayPnl.add(scrollPanel);
         mainPnl.add(displayPnl, BorderLayout.CENTER);
     }
